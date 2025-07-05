@@ -3,16 +3,22 @@ import Image from 'next/image';
 
 const portfolioData = [
     {
-        title: 'BMKG Weather Forecast ETL Data Pipeline',
-        description: 'Apache Airflow data pipeline to load, extract and transform weather forecast data at Bulukumba Regency from BMKG API into Clickhouse',
+        title: 'Automated ETL Data Pipeline',
+        description: 'Develop an automated data pipeline to load, extract and transform weather forecast data from BMKG API into Clickhouse using Apache Airflow',
         imageUrl: 'https://miro.medium.com/v2/resize:fit:1400/format:webp/1*tZ9ZS55fJmtmep4SBzqR_g.png',
         link: 'https://medium.com/@nuryaumi10/my-journey-to-creating-my-first-apache-airflow-etl-weather-forecast-data-pipeline-115090457b93'
     },
     {
         title: 'E-Commerce Analytics Dashboard',
-        description: 'An interactive analytics dashboard for monitoring e-commerce performance',
+        description: 'An interactive analytics dashboard for monitoring e-commerce performance using Python Dash',
         imageUrl: '/assets/project-1.png',
         link: 'http://103.164.20.24:8050/'
+    },
+    {
+        title: 'Game Sales Performance Dashboard',
+        description: 'An interactive analytics dashboard for monitoring game sales performance using Tableau',
+        imageUrl: '/assets/tableau.png',
+        link: 'https://public.tableau.com/app/profile/nur.yaumi/viz/Book2_17498543892720/Dashboard'
     },
     {
         title: 'Create Interactive Dashboard Using Python Dash',
